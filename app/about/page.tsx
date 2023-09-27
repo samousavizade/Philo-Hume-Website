@@ -7,8 +7,6 @@ import { genPageMetadata } from '../seo'
 export const metadata = genPageMetadata({ title: 'About' })
 
 export default function About() {
-
-
   return (
     <>
       <div className="prose max-w-none dark:prose-dark lg:prose-lg">
@@ -19,7 +17,6 @@ export default function About() {
           <br />
           You can see what I'm watching or reading recently at{` `}
           <Link href="/library">Library Page.</Link>
-
         </p>
         <b>Music</b>
         <p>
