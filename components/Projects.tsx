@@ -1,24 +1,27 @@
-import { Chip } from "@mui/material";
-import Link from "next/link";
+import { Chip } from '@mui/material'
+import Link from 'next/link'
 
 const Projects = () => {
   const projects = [
     {
-      name: "Poisson Blending",
-      type: "CV",
-      description:
-        ["Combining various toxins to enhance potency.", "Balancing ingredients to mask detectability.", "Testing and refining blends for desired effects."]
+      name: 'Poisson Blending',
+      type: 'CV',
+      description: [
+        'Combining various toxins to enhance potency.',
+        'Balancing ingredients to mask detectability.',
+        'Testing and refining blends for desired effects.',
+      ],
     },
     {
-      name: "Image Morphing",
-      type: "CV",
+      name: 'Image Morphing',
+      type: 'CV',
       description: [
-        "Establish correspondence between feature points on the source and target images.",
-        "Generate intermediate shapes and cross-dissolve colors using a weighted average based on the correspondence.",
-        "Render the sequence of intermediate images, creating the illusion of the source image smoothly transforming into the target image."
-      ]
-    }
-  ];
+        'Establish correspondence between feature points on the source and target images.',
+        'Generate intermediate shapes and cross-dissolve colors using a weighted average based on the correspondence.',
+        'Render the sequence of intermediate images, creating the illusion of the source image smoothly transforming into the target image.',
+      ],
+    },
+  ]
 
   return (
     <>
@@ -41,11 +44,13 @@ const Projects = () => {
       </div>
       <p>
         Other projects and descriptions are uploaded to my
-        <Link href="https://github.com/samousavizade/"><Chip style={{margin: "5px"}} label="Github" color={"info"}/></Link>
+        <Link href="https://github.com/samousavizade/">
+          <Chip style={{ margin: '5px' }} label="Github" color={'info'} />
+        </Link>
         .
       </p>
     </>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

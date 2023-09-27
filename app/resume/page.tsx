@@ -1,13 +1,13 @@
-import TailWindCSS from "../../components/icons/tailwindcss.svg";
-import ReactIcon from "../../components/icons/react.svg";
-import MySQL from "../../components/icons/mysql.svg";
-import TypeScript from "../../components/icons/typescript.svg";
-import TensorFlow from "../../components/icons/tensorflow.svg";
-import { genPageMetadata } from "../seo";
-import { Grid, Paper, Typography } from "@mui/material";
-import Projects from "@/components/Projects";
+import TailWindCSS from '../../components/icons/tailwindcss.svg'
+import ReactIcon from '../../components/icons/react.svg'
+import MySQL from '../../components/icons/mysql.svg'
+import TypeScript from '../../components/icons/typescript.svg'
+import TensorFlow from '../../components/icons/tensorflow.svg'
+import { genPageMetadata } from '../seo'
+import { Grid, Paper, Typography } from '@mui/material'
+import Projects from '@/components/Projects'
 
-export const metadata = genPageMetadata({ title: "Resume" });
+export const metadata = genPageMetadata({ title: 'Resume' })
 export default function Page() {
   return (
     <>
@@ -18,20 +18,26 @@ export default function Page() {
         <h2>Education</h2>
 
         <Paper className="bg-transparent" elevation={0}>
-          <Grid container paddingX={3} bgcolor={"#212121"} borderRadius={"10px"}>
-            <Grid item xs={3} >
+          <Grid container paddingX={3} bgcolor={'#212121'} borderRadius={'10px'}>
+            <Grid item xs={3}>
               <img
-                style={{height: "150px"}}
-                src={"https://en.sharif.edu/documents/51481/1963774/Sharif-University-of-Technology.jpg/d16d578c-4a49-1489-1fb9-e2d6f7db7d6e?t=1667282361389"}
+                style={{ height: '150px' }}
+                src={
+                  'https://en.sharif.edu/documents/51481/1963774/Sharif-University-of-Technology.jpg/d16d578c-4a49-1489-1fb9-e2d6f7db7d6e?t=1667282361389'
+                }
                 alt="Institution"
               />
             </Grid>
             <Grid item xs={8} marginLeft={2}>
-              <Typography variant="h3" color={"textPrimary"}>{"Sharif University of Technology"}</Typography>
-              <Typography variant="body1" color="textPrimary">
-                {"BSc of CS & Econ - 2018 to 2023"}
+              <Typography variant="h3" color={'textPrimary'}>
+                {'Sharif University of Technology'}
               </Typography>
-              <Typography variant="body2" color={"gray"}>{"Grade: 18.89 in major - TA for several courses"}</Typography>
+              <Typography variant="body1" color="textPrimary">
+                {'BSc of CS & Econ - 2018 to 2023'}
+              </Typography>
+              <Typography variant="body2" color={'gray'}>
+                {'Grade: 18.89 in major - TA for several courses'}
+              </Typography>
             </Grid>
           </Grid>
         </Paper>
@@ -80,5 +86,5 @@ export default function Page() {
         <Projects />
       </div>
     </>
-  );
+  )
 }
