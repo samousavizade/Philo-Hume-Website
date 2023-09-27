@@ -1,40 +1,40 @@
-import BUAA from '../../components/icons/BUAA.svg'
-import SUT from '../../public/SUT.jpg'
-import TailWindCSS from '../../components/icons/tailwindcss.svg'
-import ReactIcon from '../../components/icons/react.svg'
-import MySQL from '../../components/icons/mysql.svg'
-import TypeScript from '../../components/icons/typescript.svg'
-import TensorFlow from '../../components/icons/tensorflow.svg'
-import Projects from '../../components/Projects'
-import { genPageMetadata } from '../seo'
+import TailWindCSS from "../../components/icons/tailwindcss.svg";
+import ReactIcon from "../../components/icons/react.svg";
+import MySQL from "../../components/icons/mysql.svg";
+import TypeScript from "../../components/icons/typescript.svg";
+import TensorFlow from "../../components/icons/tensorflow.svg";
+import { genPageMetadata } from "../seo";
+import { Grid, Paper, Typography } from "@mui/material";
+import Projects from "@/components/Projects";
 
-export const metadata = genPageMetadata({ title: 'Resume' })
+export const metadata = genPageMetadata({ title: "Resume" });
 export default function Page() {
   return (
     <>
       <div className="prose max-w-none dark:prose-dark lg:prose-lg">
-        <h2 className="text-center font-extrabold">S.Alireza Mousavizade</h2>
+        <h2 className="text-center font-extrabold">S.Alireza Mousavizade's CV</h2>
         <hr />
 
         <h2>Education</h2>
 
-        <div className="flex flex-row gap-1">
-          <div style={{ width: '125px', height: '125px' }}>
-            <img
-              className="mb-3 mr-3 h-12 w-12 rounded-full sm:mb-0 justify-center"
-              src={
-                'https://en.sharif.edu/documents/51481/1963774/Sharif-University-of-Technology.jpg/d16d578c-4a49-1489-1fb9-e2d6f7db7d6e?t=1667282361389'
-              }
-              alt={'sut'}
-              style={{ width: '100%', height: '100%' }} // Add this style
-            />
-          </div>
-          <div className={'content'}>
-            <div className="text-2xl font-extrabold">Sharif University of Technology</div>
-            <div className="text-lg">Bachelor | Computer Science & Economics</div>
-            <div className="text-lg text-gray-500">2018-2023</div>
-          </div>
-        </div>
+        <Paper className={"bg-transparent"} elevation={0} margin={0.5} padding={0}>
+          <Grid container paddingX={3} bgcolor={"#212121"} borderRadius={"10px"}>
+            <Grid item xs={3} >
+              <img
+                style={{height: "150px"}}
+                src={"https://en.sharif.edu/documents/51481/1963774/Sharif-University-of-Technology.jpg/d16d578c-4a49-1489-1fb9-e2d6f7db7d6e?t=1667282361389"}
+                alt="Institution"
+              />
+            </Grid>
+            <Grid item xs={8} marginLeft={2}>
+              <Typography variant="h3" color={"textPrimary"}>{"Sharif University of Technology"}</Typography>
+              <Typography variant="body1" color="textPrimary">
+                {"BSc of CS & Econ - 2018 to 2023"}
+              </Typography>
+              <Typography variant="body2" color={"gray"}>{"Grade: 18.89 in major - TA for several courses"}</Typography>
+            </Grid>
+          </Grid>
+        </Paper>
 
         <hr />
 
@@ -77,9 +77,8 @@ export default function Page() {
         <hr />
 
         <h2>Projects</h2>
-        <h4>To do ... :)</h4>
-        {/*<Projects />*/}
+        <Projects />
       </div>
     </>
-  )
+  );
 }

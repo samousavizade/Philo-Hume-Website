@@ -15,14 +15,16 @@ export default function About() {
         <b>Books & Movies</b>
         <p>
           You can see what I'm watching or reading recently at{` `}
-          <Link href="/library">Library Page.</Link>
+          <Link href="/library"><Chip style={{margin: "5px"}} label="Library" color={"success"}/></Link>
+          page.
         </p>
         <b>Music</b>
         <p>
           I listen to music all the time.
           <br />
-          You can see what I'm listening recently at my <Chip label="Chip Filled" />
-          <Link href="https://t.me/Quite_S1lence">Telegram</Link> channel
+          You can see what I'm listening recently at my
+          <Link href="https://t.me/Quite_S1lence"><Chip style={{margin: "5px"}} label="Telegram" color={"primary"}/></Link>
+          channel.
         </p>
 
         <h2>About The Blog</h2>
