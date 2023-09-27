@@ -35,7 +35,7 @@ export default function About() {
         <div>
           <GitHubCard repo="samousavizade/soto-blog-nextjs" />
           <div>
-            It's hosted on <a href="https://vercel.com">Vercel</a> and built with{' '}
+            It's hosted on Vercel and built with{' '}
             <a href="https://nextjs.org">
               <i className="inline-block">
                 <NextJS className="h-6 w-6" />

@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from 'typed.js'
 import Emoji from '@/components/twemoji'
 import Link from 'next/link'
+import { Chip } from '@mui/material'
 
 const Greetings = () => {
   // Create reference to store the DOM element containing the animation
@@ -65,10 +66,10 @@ const Greetings = () => {
 
           <p>
             This website is used to introduce myself, publish some regular blogs, document my travel
-            diaries, as well as record books, movies, and music I've experienced. Feel free to{' '}
+            diaries, as well as record books, movies, and music I've experienced. Feel free to Get
+            to know me better in my personal
             <Link href="https://salirezamousavizade.vercel.app/about">
-              {' '}
-              Get to know me better in my personal website.
+              <Chip style={{ margin: '5px' }} label="website" color={'success'} />
             </Link>
           </p>
         </div>
