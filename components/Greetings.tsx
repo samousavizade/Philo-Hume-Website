@@ -69,8 +69,14 @@ const Greetings = () => {
             diaries, as well as record books, movies, and music I've experienced. Feel free to Get
             to know me better in my personal
             <Link href="https://salirezamousavizade.vercel.app/about">
-              <Chip style={{ margin: '5px' }} label="website" color={'success'} />
+              <Chip
+                style={{ margin: '5px', borderRadius: '5px' }}
+                label="website"
+                color={'info'}
+                variant={'outlined'}
+              />
             </Link>
+            .
           </p>
         </div>
       </div>
