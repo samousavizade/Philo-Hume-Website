@@ -13,8 +13,6 @@ export default function About() {
         <h2>My Shelf</h2>
         <b>Books & Movies</b>
         <p>
-          I watch and read all kinds of stuff.
-          <br />
           You can see what I'm watching or reading recently at{` `}
           <Link href="/library">Library Page.</Link>
         </p>
