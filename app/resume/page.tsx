@@ -17,7 +17,7 @@ export default function Page() {
 
         <h2>Education</h2>
 
-        <Paper className={"bg-transparent"} elevation={0} margin={0.5} padding={0}>
+        <Paper className="bg-transparent" elevation={0}>
           <Grid container paddingX={3} bgcolor={"#212121"} borderRadius={"10px"}>
             <Grid item xs={3} >
               <img
