@@ -3,6 +3,7 @@ import GitHubCard from '../../components/GitHubCard'
 import NextJS from '../../components/icons/nextjs.svg'
 import TailWindCSS from '../../components/icons/tailwindcss.svg'
 import { genPageMetadata } from '../seo'
+import { Chip } from '@mui/material'
 
 export const metadata = genPageMetadata({ title: 'About' })
 
@@ -20,7 +21,7 @@ export default function About() {
         <p>
           I listen to music all the time.
           <br />
-          You can see what I'm listening recently at my{' '}
+          You can see what I'm listening recently at my <Chip label="Chip Filled" />
           <Link href="https://t.me/Quite_S1lence">Telegram</Link> channel
         </p>
 
