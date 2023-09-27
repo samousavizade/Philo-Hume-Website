@@ -1,0 +1,22 @@
+{
+    "name": "",
+    "short_name": "",
+    "icons": [
+        {
+//             "src": "/static/favicons/android-chrome-192x192.png",
+            "src": "/static/L_Symbol.ico",
+//             soto-blog-nextjs/public/static/favicons/L_Symbol.jpeg
+//             "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+//             "src": "/static/favicons/android-chrome-512x512.png",
+            "src": "/static/L_Symbol.ico",
+//             "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
