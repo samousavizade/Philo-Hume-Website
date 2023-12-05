@@ -17,6 +17,7 @@ const Header = () => {
             <p>It's</p>
             <Image className="rounded-md" src={LSymbol} alt="logo" width={27} height={27} />
             <p>'s Personal Blog</p>
+              <p className={"text-gray-400"}>Hope to be like <b>N</b></p>
           </div>
         </Link>
       </div>

@@ -24,31 +24,26 @@ export default function About() {
         <p>
           I listen to music all the time.
           <br />
-          You can see what I'm listening recently at my
+          You can see what I'm listening recently at
           <Link href="https://t.me/Quite_S1lence">
-            <Chip style={{ margin: '5px' }} label="Telegram" color={'primary'} />
+            <Chip style={{ margin: '5px' }} label="Silence" color={'primary'} />
           </Link>
-          channel.
+          and
+          <Link href="@NotOnlySilence">
+            <Chip style={{ margin: '5px' }} label="(Not Only) Silence" color={'primary'} />
+          </Link>
+          telegram channel.
+
+        </p>
+        <b>Mindset and Ideas</b>
+        <p>
+          You can read what quotes and philosophies i follow at{` `}
+          <Link href="@my_fav_quote">
+            <Chip style={{ margin: '5px' }} label="Library" color={'secondary'} />
+          </Link>
+          telegram channel.
         </p>
 
-        <h2>About The Blog</h2>
-        <div>
-          <GitHubCard repo="samousavizade/soto-blog-nextjs" />
-          <div>
-            It's hosted on Vercel and built with{' '}
-            <a href="https://nextjs.org">
-              <i className="inline-block">
-                <NextJS className="h-6 w-6" />
-              </i>
-            </a>{' '}
-            and{' '}
-            <a href="https://tailwindcss.com">
-              <i className="inline-block">
-                <TailWindCSS className="h-6 w-6" />
-              </i>
-            </a>
-          </div>
-        </div>
       </div>
     </>
   )

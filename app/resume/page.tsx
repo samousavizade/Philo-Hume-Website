@@ -4,8 +4,10 @@ import MySQL from '../../components/icons/mysql.svg'
 import TypeScript from '../../components/icons/typescript.svg'
 import TensorFlow from '../../components/icons/tensorflow.svg'
 import { genPageMetadata } from '../seo'
-import { Grid, Paper, Typography } from '@mui/material'
+import {Chip, Grid, Paper, Typography} from '@mui/material'
 import Projects from '@/components/Projects'
+import Link from "next/link";
+import React from "react";
 
 export const metadata = genPageMetadata({ title: 'Resume' })
 export default function Page() {
@@ -14,33 +16,24 @@ export default function Page() {
       <div className="prose max-w-none dark:prose-dark lg:prose-lg">
         <h2 className="text-center font-extrabold">S.Alireza Mousavizade's CV</h2>
         <hr />
-
         <h2>Education</h2>
 
-        <Paper className="bg-transparent" elevation={0}>
-          <Grid container paddingX={3} bgcolor={'#212121'} borderRadius={'10px'}>
-            <Grid item xs={3}>
-              <img
-                style={{ height: '150px' }}
-                src={
-                  'https://en.sharif.edu/documents/51481/1963774/Sharif-University-of-Technology.jpg/d16d578c-4a49-1489-1fb9-e2d6f7db7d6e?t=1667282361389'
-                }
-                alt="Institution"
-              />
-            </Grid>
-            <Grid item xs={8} marginLeft={2}>
-              <Typography variant="h3" color={'textPrimary'}>
-                {'Sharif University of Technology'}
-              </Typography>
-              <Typography variant="body1" color="textPrimary">
-                {'BSc of CS & Econ - 2018 to 2023'}
-              </Typography>
-              <Typography variant="body2" color={'gray'}>
-                {'Grade: 18.89 in major - TA for several courses'}
-              </Typography>
-            </Grid>
-          </Grid>
-        </Paper>
+        <div className="">
+          <p className="mb-4">
+            <span className="font-semibold">Sharif University of Technology</span><br />
+            BSc of CS & Econ - 2018 to 2023<br />
+            Grade: <b>18.89</b> in major 
+          </p>
+          See
+          <Link href="https://www.linkedin.com/in/s-a-mousavizade/">
+            <Chip
+                style={{ margin: '5px', borderRadius: '5px' }}
+                label="LinkedIn"
+                color={'primary'}
+            />
+          </Link>
+          for more information.
+        </div>
 
         <hr />
 

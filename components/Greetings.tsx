@@ -71,7 +71,7 @@ const Greetings = () => {
             <Link href="https://salirezamousavizade.vercel.app/about">
               <Chip
                 style={{ margin: '5px', borderRadius: '5px' }}
-                label="website"
+                label="Website"
                 color={'info'}
                 variant={'outlined'}
               />
