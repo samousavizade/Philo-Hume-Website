@@ -71,6 +71,15 @@ const Greetings = () => {
                 color={'info'}
                 variant={'outlined'}
               />
+            </Link>{' '}
+            and
+            <Link href="https://twitter.com/niche_market">
+              <Chip
+                style={{ margin: '5px', borderRadius: '5px' }}
+                label="Twitter"
+                color={'info'}
+                variant={'outlined'}
+              />
             </Link>
             .
           </p>
