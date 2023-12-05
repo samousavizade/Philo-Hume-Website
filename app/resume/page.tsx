@@ -4,10 +4,10 @@ import MySQL from '../../components/icons/mysql.svg'
 import TypeScript from '../../components/icons/typescript.svg'
 import TensorFlow from '../../components/icons/tensorflow.svg'
 import { genPageMetadata } from '../seo'
-import {Chip, Grid, Paper, Typography} from '@mui/material'
+import { Chip, Grid, Paper, Typography } from '@mui/material'
 import Projects from '@/components/Projects'
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
 export const metadata = genPageMetadata({ title: 'Resume' })
 export default function Page() {
@@ -20,19 +20,21 @@ export default function Page() {
 
         <div className="">
           <p className="mb-4">
-            <span className="font-semibold">Sharif University of Technology</span><br />
-            BSc of CS & Econ - 2018 to 2023<br />
-            Grade: <b>18.89</b> in major 
+            <span className="font-semibold">Sharif University of Technology</span>
+            <br />
+            BSc of CS & Econ - 2018 to 2023
+            <br />
+            Grade: <b>18.89</b> in major
           </p>
           See
           <Link href="https://www.linkedin.com/in/s-a-mousavizade/">
             <Chip
-                style={{ margin: '5px', borderRadius: '5px' }}
-                label="LinkedIn"
-                color={'primary'}
+              style={{ margin: '5px', borderRadius: '5px' }}
+              label="LinkedIn"
+              color={'primary'}
             />
           </Link>
-          for more information.
+          for more information about my courses, projects, papers and ...
         </div>
 
         <hr />

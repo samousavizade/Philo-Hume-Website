@@ -33,7 +33,6 @@ export default function About() {
             <Chip style={{ margin: '5px' }} label="(Not Only) Silence" color={'primary'} />
           </Link>
           telegram channel.
-
         </p>
         <b>Mindset and Ideas</b>
         <p>
