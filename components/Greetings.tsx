@@ -18,6 +18,7 @@ const Greetings = () => {
         'I like 🏓,🎱and🎳.',
         'I like DOTA 2.',
         'I like Fake Small 😉.',
+        'I Love Sarah.',
         '...',
       ],
       typeSpeed: 50,
