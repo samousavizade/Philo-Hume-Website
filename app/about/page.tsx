@@ -38,7 +38,7 @@ export default function About() {
         <p>
           You can read what quotes and philosophies i follow at{` `}
           <Link href="@my_fav_quote">
-            <Chip style={{ margin: '5px' }} label="Library" color={'secondary'} />
+            <Chip style={{ margin: '5px' }} label="Quotes" color={'secondary'} />
           </Link>
           telegram channel.
         </p>
