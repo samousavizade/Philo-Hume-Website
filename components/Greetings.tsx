@@ -52,12 +52,8 @@ const Greetings = () => {
           Vision, Financial Machine Learning, and Macroeconomics. A detailed description of my
           notable courses and their corresponding projects can be found on my webpage. I hope this
           captures the essence of your background and interests while presenting it in a polished
-          manner. I currently live in
-          <i>
-            {' '}
-            <b>Iran,</b>{' '}
-          </i>
-          and I'm planning to study abroad in US and am currently waiting for certificates.
+          manner. I currently live in <b>Iran</b>, and I'm planning to study abroad in US and am
+          currently waiting for certificates.
         </p>
 
         <div className="type-wrap">
