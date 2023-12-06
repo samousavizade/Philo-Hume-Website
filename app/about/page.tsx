@@ -42,6 +42,31 @@ export default function About() {
           </Link>
           telegram channel.
         </p>
+        <h2>Fundamentals</h2>
+        <div className="bg-soto-tailwind-bg p-6 max-w-2xl mx-auto">
+          <div className="mb-3">
+            <p className="italic font-medium">David Hume:</p>
+            <p className="ml-4">
+              <span>"All knowledge degenerates into the probability."</span>
+            </p>
+            <p className="ml-4">
+              <span>"A wise man proportions his belief to the evidence."</span>
+            </p>
+          </div>
+          <div>
+            <p className="italic font-medium">Albert Einstein (Antithesis):</p>
+            <p className="ml-4">
+              <span>
+                "The essence of existence lies in the unexplained randomness, an enigma wrapped in
+                probability. It is the fundamental thread weaving the fabric of our world, destined
+                to remain a mystery until the very end."{' '}
+                <b>
+                  God does <s>not</s> play dice with the universe.
+                </b>
+              </span>
+            </p>
+          </div>
+        </div>
       </div>
     </>
   )
