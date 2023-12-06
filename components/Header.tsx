@@ -5,7 +5,7 @@ import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import Image from 'next/image'
 import Logo from '../public/static/images/logo.png'
-import LSymbol from '../public/static/images/L_Symbol.jpeg'
+import LSymbol from '../public/static/images/L_Symbol.png'
 
 const Header = () => {
   return (
@@ -16,10 +16,7 @@ const Header = () => {
             <Image className="rounded-md mr-4" src={Logo} alt="logo" width={36} height={36} />
             <p>It's</p>
             <Image className="rounded-md" src={LSymbol} alt="logo" width={27} height={27} />
-            <p>'s Personal Blog</p>
-            <p className={'text-gray-400'}>
-              Hope to be like <b>N</b> ...
-            </p>
+            <p>'s Website</p>
           </div>
         </Link>
       </div>
