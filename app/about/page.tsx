@@ -4,6 +4,8 @@ import NextJS from '../../components/icons/nextjs.svg'
 import TailWindCSS from '../../components/icons/tailwindcss.svg'
 import { genPageMetadata } from '../seo'
 import { Chip } from '@mui/material'
+import Image from 'next/image'
+import GTMetrics from '../../public/static/images/2x2_grid_image.png'
 
 export const metadata = genPageMetadata({ title: 'About' })
 
@@ -70,6 +72,15 @@ export default function About() {
               </span>
             </p>
           </div>
+        </div>
+        <h2>GTMetrics Report</h2>
+        <div className="justify-center items-center w-full h-full shadow-2xl rounded-3xl">
+          <Image
+            src={GTMetrics} // Replace with your image path
+            alt="Descriptive Alt Text"
+            objectFit="cover" // Adjusts the size of the image to cover the div, can be adjusted to "contain" if needed
+            className="rounded-md" // Optional: for rounded corners
+          />
         </div>
       </div>
     </>
