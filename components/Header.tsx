@@ -4,8 +4,8 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import Image from 'next/image'
-import Logo from '../public/static/images/logo.png'
-import LSymbol from '../public/L_Symbol.ico'
+import Logo from '../public/logo.png'
+import LSymbol from '../public/static/images/L_Symbol.png'
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
           <div className="flex items-center justify-between gap-3 ">
             <Image className="rounded-md mr-4" src={Logo} alt="logo" width={36} height={36} />
             <p>It's</p>
-            <Image className="rounded-md" src={LSymbol} alt="logo" width={27} height={27} />
+            <Image className="rounded-md" src={LSymbol} alt="symbol" width={27} height={27} />
             <p>'s Website</p>
           </div>
         </Link>
