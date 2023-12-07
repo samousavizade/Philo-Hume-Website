@@ -1,7 +1,7 @@
 const QuotesContainer = ({ text, reference }) => {
   return (
     <div className="mx-auto mt-5 p-4 max-w-2xl bg-gray-400 dark:bg-gray-600 shadow-lg rounded-lg">
-      <h3 className="text-lg md:text-xl text-blue-900 dark:text-blue-200 text-left">{text}</h3>
+      <h3 className="text-lg md:text-xl text-gray-800 dark:text-blue-200 text-left">{text}</h3>
       {reference && (
         <p className="text-right text-blue-900 dark:text-blue-200 opacity-50 mt-4 text-sm italic">
           {reference}

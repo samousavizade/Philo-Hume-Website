@@ -8,9 +8,6 @@ import { genPageMetadata } from '../seo'
 import { Chip } from '@mui/material'
 import Image from 'next/image'
 import GTMetrics from '../../public/static/images/gridgtmetrics.jpeg'
-
-// export const metadata = genPageMetadata({ title: 'About' })
-
 import ConceptsAccordion from './Concept'
 import React from 'react'
 

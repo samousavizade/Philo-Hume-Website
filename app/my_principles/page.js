@@ -1,5 +1,7 @@
-import HumePrinciples from './HumePrinciples'
+'use client'
 
+import HumePrinciples from './HumePrinciples'
+import { genPageMetadata } from '../seo'
 const HomePage = () => {
   return (
     <div>

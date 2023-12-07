@@ -54,7 +54,7 @@ import { useState } from 'react'
 
 const Concept = ({ title, content, onToggle, isActive }) => {
   // Animation classes for the flash effect
-  const activeClasses = 'border-0 border-blue-900 bg-gray-300 dark:bg-gray-700'
+  const activeClasses = 'border-0 bg-gray-300 dark:bg-gray-700'
   const inactiveClasses = 'border-transparent'
   const flashEffect = 'transition-all duration-300 ease-in-out transform hover:scale-105'
 
