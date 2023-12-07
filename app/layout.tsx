@@ -16,9 +16,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       {/*<link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-touch-icon.png" />*/}
-      <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/L.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/L.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="//static/favicons/L.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/L.jpeg" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/L.jpeg" />
+      <link rel="icon" type="image/png" sizes="16x16" href="//static/favicons/L.jpeg" />
       <link rel="manifest" href="/static/favicons/site.webmanifest" />
       <meta name="msapplication-TileColor" content="#abb581" />
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />

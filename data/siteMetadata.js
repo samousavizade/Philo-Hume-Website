@@ -8,8 +8,8 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.atksoto.com',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/logo.png',
+  siteLogo: '/static/images/logo.jpeg',
+  image: '/static/images/logo.jpeg',
   socialBanner: '/static/images/twitter-card.jpg',
   email: 'mousavizade@risklab.ai',
   github: 'https://github.com/samousavizade',

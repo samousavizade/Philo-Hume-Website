@@ -7,7 +7,7 @@ import TailWindCSS from '../../components/icons/tailwindcss.svg'
 import { genPageMetadata } from '../seo'
 import { Chip } from '@mui/material'
 import Image from 'next/image'
-import GTMetrics from '../../public/static/images/gridgtmetrics.png'
+import GTMetrics from '../../public/static/images/gridgtmetrics.jpeg'
 
 // export const metadata = genPageMetadata({ title: 'About' })
 
