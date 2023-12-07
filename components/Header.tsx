@@ -16,7 +16,7 @@ const Header = () => {
             <Image className="rounded-md mr-4" src={Logo} alt="logo" width={36} height={36} />
             <p>It's</p>
             <Image className="rounded-md" src={LSymbol} alt="symbol" width={27} height={27} />
-            <p>'s Website</p>
+            <p>'s Website.</p>
           </div>
         </Link>
       </div>
