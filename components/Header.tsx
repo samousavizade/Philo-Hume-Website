@@ -4,7 +4,7 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import Image from 'next/image'
-import Logo from '../public/logo.png'
+import Logo from '../public/static/images/logo.png'
 import LSymbol from '../public/static/images/L_Symbol.png'
 
 const Header = () => {
