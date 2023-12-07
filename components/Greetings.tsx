@@ -80,6 +80,11 @@ const Greetings = () => {
             Twitter.
           </p>
         </div>
+        <h2>Todos:</h2>
+        <ol>
+          <li>Podcasts, Voices, ...</li>
+          <li>Books to download in persian and english.</li>
+        </ol>
       </div>
     </div>
   )
