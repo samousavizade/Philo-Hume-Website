@@ -4,8 +4,8 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import Image from 'next/image'
-import Logo from 'public/static/images/logo.png'
-import LSymbol from 'public/L_Symbol.ico'
+import Logo from '/public/static/images/logo.png'
+import LSymbol from '/public/L_Symbol.ico'
 
 const Header = () => {
   return (
