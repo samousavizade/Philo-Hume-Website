@@ -10,7 +10,7 @@ const Greetings = () => {
       <h1 className="bg-gradient-to-r from-gray-700 to-blue-300 bg-clip-text text-4xl font-extrabold text-transparent">
         Welcome to <b>Philo Hume</b> website,
       </h1>
-      <div className="prose dark:prose-dark lg:prose-lg mt-4">
+      <div className="prose dark:prose-dark lg:prose-lg mt-4 mx-auto">
         <p>
           David Hume was a Scottish philosopher, economist, and historian, considered one of the
           most important figures in the history of Western philosophy and the Scottish
