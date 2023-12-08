@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { Chip } from '@mui/material'
-
+import MainImage from 'public/hume_main_page.jpeg'
+import Image from 'next/image'
 const Greetings = () => {
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null)
@@ -10,6 +11,15 @@ const Greetings = () => {
       <h1 className="bg-gradient-to-r from-gray-700 to-blue-300 bg-clip-text text-4xl font-extrabold text-transparent">
         Welcome to <b>Philo Hume</b> website,
       </h1>
+      <div className="relative w-full h-[1000px]">
+        <Image
+          src={MainImage}
+          alt={'main'}
+          layout="fill"
+          objectFit="contain" // Use 'cover' if you want to fill the height and crop the image instead
+          quality={100}
+        />
+      </div>
       <div className="prose dark:prose-dark lg:prose-lg mt-4 mx-auto">
         <p>
           David Hume was a Scottish philosopher, economist, and historian, considered one of the
